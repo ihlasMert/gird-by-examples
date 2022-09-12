@@ -1,0 +1,33 @@
+body {
+  margin: 40px;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 45px;
+ 
+  font-size: 150%;
+  text-align: center;
+  /* display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center; */
+
+  
+}
+
+.box:nth-child(odd) {
+  background-color: #ccc;
+  color: #000;
+}
+
+.wrapper {
+  width: 600px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, 200px);
+  grid-template-rows: 140px 140px 140px;
+ 
+}
